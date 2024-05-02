@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
     //Desenvolvido por Beatriz Bastos Borges e Miguel Luizatto Alves
-    
+
     /*Construir a classe Hora, conforme especificacao
     abaixo, este exercício compora a avaliacao final, portanto sera obrigatoria sua
     elaboracao para a prova final. */
@@ -176,16 +176,24 @@ public class TP03Ex01
 {
     public static void main(String[] args)
     {
-        Hora hora1 = new Hora();
-        System.out.println("Hora 1: " + hora1.getHora1());
-        System.out.println("Hora 2: " + hora1.getHora2());
-        System.out.println("Segundos: " + hora1.getSegundos());
-
-        Hora hora2 = new Hora(15, 30, 45);
-        System.out.println("\nHora 1: " + hora2.getHora1());
-        System.out.println("Hora 2: " + hora2.getHora2());
-        System.out.println("Segundos: " + hora2.getSegundos());
         
+        Hora h1 = new Hora();
+        System.out.println("Hora 1: " + h1.getHora1());
+        System.out.println("Hora 2: " + h1.getHora2());
+        System.out.println("Segundos: " + h1.getSegundos());
+
+        Hora h2 = new Hora(15, 30, 45);
+        System.out.println("\nHora 1: " + h2.getHora1());
+        System.out.println("Hora 2: " + h2.getHora2());
+        System.out.println("Segundos: " + h2.getSegundos() + "\n");
+
+        Hora h3 = new Hora ();
+        h3.setHor(23);
+        h3.setMin(59);
+        h3.setSeg(59);
+        System.out.println("Horas: " + h3.getHor());
+        System.out.println("Minutos: " + h3.getMin());
+        System.out.println("Segundos: " + h3.getSeg());
     }
 }
 

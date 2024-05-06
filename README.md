@@ -49,4 +49,4 @@ entrada de dados.
 Agora, desenvolva um programa capaz de testar a classe e os métodos desenvolvidos no
 exercício anterior.
 
-<img src="Assets/TP03Ex01.gif">
+[Vídeo do programa funcionando](https://www.youtube.com/watch?v=hoVr7dL1Mgg)

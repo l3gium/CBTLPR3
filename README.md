@@ -48,3 +48,5 @@ entrada de dados.
 ## Exercício 02
 Agora, desenvolva um programa capaz de testar a classe e os métodos desenvolvidos no
 exercício anterior.
+
+<img src="Assets/TP03Ex01.gif">
